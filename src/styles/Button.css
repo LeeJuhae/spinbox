@@ -1,0 +1,8 @@
+.btn {
+	height: 4rem;
+	line-height: 4rem;
+	text-align: center;
+	user-select: none;
+
+	/* margin:0 auto; */
+}

@@ -1,0 +1,9 @@
+#value {
+	height: 4rem;
+	line-height: 4rem;
+	text-align: center;
+	user-select: none;
+	background-color: rgb(236, 240, 241);
+	color: rgb(44, 62, 80);
+}
+

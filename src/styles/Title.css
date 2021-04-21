@@ -1,0 +1,9 @@
+#title {
+	height: 4rem;
+	line-height: 4rem;
+	text-align: center;
+	/* margin: 0 auto; */
+	user-select: none;
+	background-color: rgb(44, 62, 80);
+	color: rgb(236, 240, 241);
+}

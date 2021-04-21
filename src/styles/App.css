@@ -1,0 +1,9 @@
+.box-wrapper {
+	border: 2px dashed rgb(127, 140, 141);
+	padding: 0.5rem;
+	margin: 3rem auto 0 auto;
+}
+
+.btn {
+	width: 100%;
+}

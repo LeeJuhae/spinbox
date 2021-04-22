@@ -6,8 +6,13 @@ class Title extends Component {
 		return (this.props.title !== nextProps.title);
 	}
 	render() {
+		const {title, handleDragStart, handleDrag} = this.props;
 		return (
-			<div id="title" draggable={true}>{this.props.title}</div>
+			<div id="title" draggable={true}
+			onDragStart={handleDragStart}
+			onDrag={handleDrag}>
+				{title}
+			</div>
 		);
 	}
 }

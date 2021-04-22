@@ -6,8 +6,13 @@ class Spinbox extends Component {
 		return (this.props.value !== nextProps.value);
 	}
 	render() {
+		const {value, handleDragStart, handleDrag} = this.props;
 		return (
-			<div id="value">{this.props.value}</div>
+			<div id="value" draggable={true}
+			onDragStart={handleDragStart}
+			onDrag={handleDrag}>
+				{value}
+			</div>
 		);
 	}
 }
